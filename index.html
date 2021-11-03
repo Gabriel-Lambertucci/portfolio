@@ -5,55 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Gabriel Lambertucci</title>
-    <style>
-        h1 {
-            font-family: arial;
-        }
-
-        Body {
-            font-family: 'Times New Roman', Times, serif;
-            background-color: rgb(240, 250, 250);
-        }
-
-    
-
-        .indice{
-            text-decoration:dashed;
-        }
-
-        .italico{
-            font-style:italic;
-        }
-
-        #github-button{
-            background-color: black;
-            color:white;
-            padding: 10px 80px;
-            line-height: 40px;
-            border-radius: 10px;
-        }
-        #linkedin-button{
-            background-color: darkblue;
-            color: white;
-            padding: 10px 75px;
-            border-radius: 10px;
-        }
-
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header id="headerpai">
+    <div id="header">
     <h1>Gabriel Azevedo Lambertucci</h1>
+    <h3>Estudante de Desenvolvimento Web na Trybe</h3>
+    </div>
+    <div id="fotoperfil">
     <img id ="foto" src="Screenshot from 2021-10-20 13-20-32.png" alt= "Foto perfil">
-    <h2> Índice </h2>
-    <ol>
+    </div>
+    
+   
+    <ol class ="menu">
         <li><a class="indice" href ="#apresentação">Apresentação</a></li>
         <li><a class="indice" href ="#Principais Soft Skills"> Principais Soft Skills </a></li>
         <li><a class="indice" href ="#Principais Hard Skills">Principais Hard Skills</a></li>
-        <li><a class="indice" href ="#Links Importantes">Links Importantes</a></li>
-    </ol><br>
+        
+    </ol>
+    </header>
     <h2 id ="apresentação"> 1. Apresentação: </h2>
     <p>Tenho <span> 25 </span class= "italico"> anos, moro e sou natural de <span class = italico>Belo Horizonte - MG, Brasil</span>.<br> <br><strong>Estudante de Desenvolvimento Web na <em>Trybe.</em></strong></p><br>
    <h2 id ="Principais Soft Skills">2. Principais Soft Skills:</h2>
@@ -64,15 +36,22 @@
         <li>Empatia</li>    
     </ul>
     <h2 id ="Principais Hard Skills">3. Principais Hard Skills:</h2>
-<ul>
+    <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>Python</li>
-</ul>
-    <h2 id ="Links Importantes">4. Links Importantes:</h2>
+    </ul>
+    
+    <div id = "botoes">
+    <div id = "botaolinkedin" >
     <a id= "linkedin-button" href="https://www.linkedin.com/in/gabriel-lambertucci-698765172/" target ="_blank"> Linkedin </a> <br> <br>
+    <img id="imglinkedin" src="/linkedin.png" >
+    </div>
+    <div id = "botaoGitHub">
     <a id= "github-button" href = "https://github.com/Gabriel-Lambertucci/Trybe_Exercicios" target = "_blank">GitHub</a>
-
+    <img id="imggithub" src="/GitHub.png" >
+    </div>
+    </div>
     
 </body>
 </html>
