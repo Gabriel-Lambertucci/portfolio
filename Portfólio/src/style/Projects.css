@@ -1,0 +1,37 @@
+.projects {
+  scroll-behavior: smooth;
+}
+
+.projects-section {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 250px;
+  width: 80%;
+}
+
+.project-img {
+  box-shadow: 0 0 60px 2px #3a88a5;
+  height: 230px;
+  width: 100%;
+}
+
+#projetos-h2 {
+  font-size: 30px;
+  width: 60%;
+  text-align: left;
+  margin: 40px auto;
+}
+
+.gif-link {
+  color: white;
+  text-decoration: none;
+  width: 30%;
+}
+
+h3 {
+  font-size: 20px;
+}
