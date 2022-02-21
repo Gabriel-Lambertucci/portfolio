@@ -22,6 +22,10 @@
 }
 
 #video {
+  clip-path: circle(60%);
   height: 65px;
+}
+
+.video-div {
   padding: 15px 100px;
 }
