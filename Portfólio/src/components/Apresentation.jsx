@@ -25,7 +25,6 @@ class Apresentation extends Component {
               </div>
             </div>
           </div>
-        
       </section>
     ) 
   }

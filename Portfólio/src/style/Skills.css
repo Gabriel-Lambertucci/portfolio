@@ -17,6 +17,21 @@
   box-shadow: 0 0 60px 2px #3a88a5;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .icons:hover {
+    animation: icons-spin  2s;
+  }
+}
+
+@keyframes icons-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 #js-logo {
   width: 65px;
 }

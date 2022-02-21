@@ -9,8 +9,10 @@ class ProjectPageTrybeTunes extends Component {
     return (
       <div>
         <ProjectPagesHeader />
-        <h2>TrybeTunes</h2>
-        <video src={ video } controls = { true }></video>
+        <div className='Project-name-video'>
+          <h2>TrybeTunes</h2>
+          <video id='TrybeTunes-video' src={ video } controls = { true }></video>
+        </div>
         <ul className="habilitiesList"> <h3>
         Habilidades Requeridas
         </h3>
