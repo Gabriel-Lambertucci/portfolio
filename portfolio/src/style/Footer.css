@@ -1,0 +1,24 @@
+.footer {
+  background-color:#063c50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.icons-div {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: white;
+  clip-path: circle(50%);
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+  height: 40px;
+  width: 50px;
+}
+
+.footer-icons {
+  height: 100%;
+  width: 100%;
+}

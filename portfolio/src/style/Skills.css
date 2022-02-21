@@ -1,0 +1,76 @@
+.Skills-section {
+  display: flex;
+  margin: 220px auto;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.icons {
+  padding: 20px 0;
+  margin: 0 30px;
+  transition: all 0.5s;
+  width: 70px;
+}
+
+.icons:hover {
+  width: 90px;
+  box-shadow: 0 0 60px 2px #3a88a5;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .icons:hover {
+    animation: icons-spin  2s;
+  }
+}
+
+@keyframes icons-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#js-logo {
+  width: 65px;
+}
+
+#js-logo:hover {
+  width: 80px;
+}
+
+.descriptions {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+  transition: all 0.5s;
+  width: 80%;
+}
+
+.logos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  width: 10%;
+}
+
+.description-p {
+  font-size: 20px;
+  margin: 0;
+  text-indent: 40px;
+}
+
+#mouse-video {
+  width: 50px;
+}
+
+#h2-skills {
+  font-size: 30px;
+  scroll-margin: 200px 0;
+}

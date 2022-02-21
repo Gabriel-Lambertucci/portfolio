@@ -1,0 +1,45 @@
+.apresentation-section {
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.perfil-photo-div {
+  background-color: rgb(1, 1, 37);
+  clip-path: circle(60%);
+  text-align: center;
+}
+
+#perfil-photo {
+  clip-path: circle(60%);
+  width: 80%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#paragraph {
+  font-size: 25px;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+#link {
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+}
