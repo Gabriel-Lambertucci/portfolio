@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import '../style/Footer.css';
 
+const linkedin = require('../images/Linkedin.png');
+
 class Footer extends Component {
   render() {
     return (
@@ -12,7 +14,7 @@ class Footer extends Component {
         </div>
         <div className='icons-div'>
           <a href='https://www.linkedin.com/in/gabriel-lambertucci-698765172/' target='_blank' rel='noreferrer'>
-            <img className='footer-icons' src='https://cdn-icons.flaticon.com/png/512/3669/premium/3669739.png?token=exp=1645395257~hmac=1e177bd24b013bdd2561f0009abb3133' alt='LinkedIn' />
+            <img className='footer-icons' src={ linkedin } alt='LinkedIn' />
           </a>
         </div>
       </footer>
