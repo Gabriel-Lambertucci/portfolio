@@ -16,7 +16,7 @@
 }
 
 .project-img:hover {
-  box-shadow: 0 0 100px 20px #3a88a5;
+  box-shadow: 0 0 100px 20px white;
 }
 
 #projetos-h2 {
@@ -27,6 +27,10 @@
   padding-left: 148px;
 }
 
+h3:hover {
+  box-shadow: 0 0 100px 20px white;
+}
+
 .gif-link {
   color: white;
   text-decoration: none;
@@ -35,4 +39,5 @@
 
 h3 {
   font-size: 25px;
+  transition: all 0.5s;
 }

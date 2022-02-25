@@ -1,6 +1,5 @@
 .header {
   align-items: center;
-  background-color: #063c50;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -14,6 +13,7 @@
 .item-list {
   color: white;
   display: inline-block;
+  font-size: 22px;
   font-weight: bold;
 }
 

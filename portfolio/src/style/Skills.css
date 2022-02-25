@@ -47,6 +47,7 @@
   line-height: 50px;
   text-align: justify;
   text-justify: inter-word;
+  font-weight: bold;
   transition: all 0.5s;
   width: 80%;
 }

@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <header className="header">
         <div className="video-div">
-          <video id='video' src="https://cdn-icons-mp4.flaticon.com/512/6569/6569144.mp4" autoPlay='true' loop="true" />
+          <video id='video' src="https://cdn-icons-mp4.flaticon.com/512/6569/6569144.mp4" autoPlay='true' loop="true" muted />
         </div>
         <nav className="nav">
           <ul className="unordered-list">

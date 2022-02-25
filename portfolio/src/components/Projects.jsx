@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import '../style/Projects.css';
-import { Link } from 'react-router-dom';
 
 let gifTrybeTunes = require('../videos/TrybeTunes.gif');
+
+const trybeTunesUrl = 'https://gabriel-lambertucci.github.io/TrybeTunes/'
 
 class Projects extends Component {
   render() {
@@ -10,13 +11,13 @@ class Projects extends Component {
       <section className='projects'> 
           <h2 id='projetos-h2'>Projetos</h2>
         <div className='projects-section'>
-            <Link onClick={ this.onClickHandler } className='gif-link'  to='/projects-TrybeTunes'>
+            <a className='gif-link'  href={ trybeTunesUrl } target='_blank' rel='noreferrer'>
               <img className='project-img' src={gifTrybeTunes} alt='TrybeTunes' />
-            </Link>   
+            </a>   
             <h3>
-            <Link onClick={ this.onClickHandler } className='gif-link'  to='/projects-TrybeTunes'>
+            <a className='gif-link'  href={ trybeTunesUrl } target='_blank' rel='noreferrer'>
               TrybeTunes
-            </Link>
+            </a>
           </h3>
         </div>
       </section>

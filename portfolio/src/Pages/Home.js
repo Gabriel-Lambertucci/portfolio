@@ -8,12 +8,13 @@ import '../style/Home.css'
 
 class Home extends Component {
   render() {
+    const { history } = this.props
     return (
       <>
         <Header />
         <Apresentation />
         <Skills />
-        <Projects />
+        <Projects history={ history } />
         <Footer />
       </>
     )
