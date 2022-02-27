@@ -1,5 +1,6 @@
 .Skills-section {
   display: flex;
+  flex-wrap: wrap;
   margin: 220px auto;
   justify-content: space-between;
   width: 55%;
@@ -9,7 +10,7 @@
   padding: 20px 0;
   margin: 0 30px;
   transition: all 0.5s;
-  width: 70px;
+  width: 80%;
 }
 
 .icons:hover {
@@ -33,7 +34,7 @@
 }
 
 #js-logo {
-  width: 65px;
+  width: 80%;
 }
 
 #js-logo:hover {
@@ -74,4 +75,44 @@
 #h2-skills {
   font-size: 30px;
   scroll-margin: 200px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) and (min-width: 375px) {
+  .description-p {
+    font-size: 0.8em;
+    text-indent: 25px;
+    width: 100%;
+  }
+  .Skills-section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .logos {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .icons{
+    margin: 0 18px;
+    width:12%;
+  }
+  #js-logo {
+    width: 12%;
+  }
+  .descriptions{
+    justify-content: center;
+    width: 100%;
+  }
+  .icons:hover {
+    width: 15%;
+    box-shadow: 0 0 60px 2px #3a88a5;
+  }
+  #js-logo:hover {
+    width: 14%;
+  }
 }

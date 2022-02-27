@@ -41,3 +41,18 @@ h3 {
   font-size: 25px;
   transition: all 0.5s;
 }
+
+@media screen and (max-width: 900px), screen and (min-width: 375px) {
+  .projects{
+    margin: 20px auto;
+    width: 80%;
+  }
+  #projetos-h2 {
+    padding-left: 0;
+    margin: 40px 0;
+    width: 80%;
+  }
+  .gif-link {
+    width: 100%;
+  }
+}

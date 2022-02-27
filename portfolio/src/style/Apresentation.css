@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  box-sizing: border-box;
 }
 
 .perfil-photo-div {
@@ -41,4 +42,26 @@ h1 {
   color: white;
   font-weight: 900;
   text-decoration: none;
+}
+
+
+@media screen and (max-width: 950px) and (min-width: 300px) {
+  h1 {
+    font-size: 30px;
+  }
+  .name {
+    padding-left: 20px;
+  }
+  #paragraph {
+    font-size: 20px;
+  }
+  .apresentation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .perfil-photo-div {
+    width: 50%;
+    text-align: center;
+  }
 }

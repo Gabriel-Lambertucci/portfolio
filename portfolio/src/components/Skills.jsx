@@ -36,8 +36,8 @@ class Skills extends Component {
     const { phrases, index } = this.state;
     return (
       <section className='Skills-section'>
+        <h2 id='h2-skills'>Skills</h2>
         <div className = 'logos'>
-          <h2 id='h2-skills'>Skills</h2>
           <img onMouseOver={this.mouseOverHandler} onMouseOut={this.mouseOutHandler} className='icons' src={ reactImg } alt='React logo'></img>
           <img onMouseOver={this.mouseOverHandler} onMouseOut={this.mouseOutHandler} className='icons' src='https://cdn-icons-png.flaticon.com/512/888/888847.png' alt='Css logo'></img>
           <img onMouseOver={this.mouseOverHandler} onMouseOut={this.mouseOutHandler} className='icons' src='https://cdn-icons-png.flaticon.com/512/888/888859.png' alt='Html logo'></img>

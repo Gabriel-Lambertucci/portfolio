@@ -23,9 +23,42 @@
 
 #video {
   clip-path: circle(60%);
-  height: 65px;
+  height: 50px;
 }
 
 .video-div {
   padding: 15px 100px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 360px) {
+  #item1, #item2 {
+    margin-right: 10px;
+  }
+  .nav {
+    padding-right: 50px;
+  }
+  .video-div {
+    padding: 15px 50px;
+  }
+  .item-list {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  #item1, #item2 {
+    margin-right: 2px;
+  }
+  .nav {
+    padding-right: 10px;
+  }
+  .video-div {
+    padding: 10px 25px;
+  }
+  .item-list {
+    font-size: 10px;
+  }
+  #video {
+    height: 25px;
+  }
 }

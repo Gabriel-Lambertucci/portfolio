@@ -13,7 +13,7 @@ class Header extends Component {
         <nav className="nav">
           <ul className="unordered-list">
             <a href="#h2-skills" id ="item2"><li className="item-list">Skills</li></a>
-            <a href="#projetos-h2"><li className="item-list">Projetos</li></a>
+            <a href="#projetos-h2" id ="item2"><li className="item-list">Projetos</li></a>
           </ul>
         </nav>
       </header>
