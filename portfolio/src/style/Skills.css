@@ -2,15 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   margin: 220px auto;
-  justify-content: space-between;
-  width: 55%;
+  justify-content: flex-start;
+  width: 80%;
 }
 
 .icons {
   padding: 20px 0;
   margin: 0 30px;
   transition: all 0.5s;
-  width: 80%;
+  width: 15%;
 }
 
 .icons:hover {
@@ -34,23 +34,22 @@
 }
 
 #js-logo {
-  width: 80%;
+  width: 15%;
 }
 
 #js-logo:hover {
-  width: 80px;
+  width: 60px;
 }
 
 .descriptions {
   align-items: center;
   display: flex;
   justify-content: center;
-  line-height: 50px;
+  line-height: 70px;
   text-align: justify;
-  text-justify: inter-word;
   font-weight: bold;
   transition: all 0.5s;
-  width: 80%;
+  width: 55%;
 }
 
 .logos {
@@ -59,13 +58,14 @@
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
-  width: 10%;
+  width: 30%;
 }
 
 .description-p {
-  font-size: 20px;
+  font-size: 1.4vw;
   margin: 0;
   text-indent: 40px;
+  width: 100%;
 }
 
 #mouse-video {
@@ -73,21 +73,23 @@
 }
 
 #h2-skills {
-  font-size: 30px;
+  font-size: 2vw;
+  padding-left: 11.6%;
   scroll-margin: 200px 0;
-  width: 100%;
+  width: 80%;
 }
 
-@media screen and (max-width: 950px) and (min-width: 375px) {
+@media screen and (max-width: 900px) and (min-width: 300px) {
   .description-p {
-    font-size: 0.8em;
-    text-indent: 25px;
-    width: 100%;
+    font-size: 15px;
+    text-indent: 22px;
+    width: 90%;
   }
   .Skills-section {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    margin: 150px auto 0 auto;
+    width: 90%;
   }
   .logos {
     align-items: center;
@@ -99,13 +101,15 @@
   }
   .icons{
     margin: 0 18px;
-    width:12%;
+    width:10%;
   }
   #js-logo {
-    width: 12%;
+    width: 9%;
   }
   .descriptions{
-    justify-content: center;
+    text-align: justify;
+    line-height: 45px;
+    padding-top: 20px;
     width: 100%;
   }
   .icons:hover {
@@ -114,5 +118,9 @@
   }
   #js-logo:hover {
     width: 14%;
+  }
+  #h2-skills{
+    font-size: 25px;
+    padding-left: 2%;
   }
 }

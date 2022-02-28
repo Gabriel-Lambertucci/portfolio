@@ -23,7 +23,7 @@
 
 #video {
   clip-path: circle(60%);
-  height: 50px;
+  height: 60px;
 }
 
 .video-div {
@@ -35,30 +35,30 @@
     margin-right: 10px;
   }
   .nav {
-    padding-right: 50px;
+    padding-right: 15px;
   }
   .video-div {
-    padding: 15px 50px;
+    padding: 15px 25px;
   }
   .item-list {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 359px) {
   #item1, #item2 {
-    margin-right: 2px;
+    margin-right: 5px;
   }
   .nav {
     padding-right: 10px;
   }
   .video-div {
-    padding: 10px 25px;
+    padding: 15px 25px;
   }
   .item-list {
-    font-size: 10px;
+    font-size: 14px;
   }
   #video {
-    height: 25px;
+    height: 35px;
   }
 }

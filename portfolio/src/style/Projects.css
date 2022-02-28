@@ -20,11 +20,11 @@
 }
 
 #projetos-h2 {
-  font-size: 30px;
-  width: 60%;
+  font-size: 2vw;
+  padding-left: 17%;
+  width: 70%;
   text-align: left;
   margin: 40px auto;
-  padding-left: 148px;
 }
 
 h3:hover {
@@ -38,21 +38,33 @@ h3:hover {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 1.6vw;
   transition: all 0.5s;
+  text-align: center;
+  width: 20%;
 }
 
-@media screen and (max-width: 900px), screen and (min-width: 375px) {
+@media screen and (max-width: 900px) and (min-width: 300px) {
   .projects{
-    margin: 20px auto;
+    margin: 150px auto 50px auto;
     width: 80%;
   }
   #projetos-h2 {
+    font-size: 25px;
     padding-left: 0;
-    margin: 40px 0;
-    width: 80%;
+    margin: 30px auto;
+    width: 90%;
   }
   .gif-link {
-    width: 100%;
+    width: 90%;
+  }
+  h3 {
+    font-size: 20px;
+    transition: all 0.5s;
+    text-align: center;
+    width: 40%;
+  }
+  .projects-section{
+    margin: 0 auto;
   }
 }
