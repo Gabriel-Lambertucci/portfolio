@@ -16,7 +16,7 @@ class Apresentation extends Component {
             <img id='perfil-photo' src='https://pbs.twimg.com/profile_images/1481792625443229702/7t6wuTjJ_400x400.jpg' alt='Foto'></img>
             <div className='div'>
               <div className='icons-div'>
-                <a href='https://github.com/Gabriel-Lambertucci/Trybe' target='_blank' rel='noreferrer'>
+                <a href='https://github.com/Gabriel-Lambertucci' target='_blank' rel='noreferrer'>
                   <img className='footer-icons' src='https://cdn-icons-png.flaticon.com/512/733/733609.png' alt='GitHub' />
                 </a>
               </div>
